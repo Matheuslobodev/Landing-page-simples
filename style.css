@@ -1,0 +1,104 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+body {
+    background-color: black;
+}
+
+.inicio img{
+    padding-left: 35%;
+    padding-right: 35%;
+    width: 100%;
+}
+
+
+.inicio h1 {
+    color: darkturquoise;
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.inicio {
+    align-items: center;
+}
+
+
+h2{
+    background-color: darkturquoise;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+
+.itens {
+    text-align: center;
+    color: whitesmoke;
+    padding-bottom: 180px;
+    padding-top: 35px;
+}
+
+form h3{
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form {
+    background-color: rgb(221, 64, 7);
+    max-width: 500px;
+    width: 70%;
+    padding: 20px;
+    position:relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form input[type=text]{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    margin: 10px 0;
+}
+
+form input[type=email]{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    margin: 10px 0;
+}
+
+form input[type=tel]{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    margin: 10px 0;
+}
+
+form input[type=submit]{
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    background-color: darkcyan;
+    color: whitesmoke; 
+    border: 0;
+    border-radius: 20px;
+}
+
+form input[type=submit]:hover{
+    background-color: darkturquoise;
+    transition: 1s;
+}
+
+footer {
+    color: blanchedalmond;
+    text-align: center;
+    background-color: rgb(221, 64, 7);
+    margin-bottom: 10px;
+}
